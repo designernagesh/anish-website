@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Page</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header"> 
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="aboutus.html"> About Us </a></li>
+                    <li><a href="services.html"> Services </a></li>
+                    <li><a href="contactus.html"> Contact Us </a></li>
+                </ul>
+            </nav> 
+
+            <a href="index.html" class="logo">
+                <img src="images/logo.jpg" alt="website logo" />
+            </a>
+
+            <div class="clear"></div>
+        </header>
+        
+        <h1 class="headingFont"> Contact Us Page</h1>
+        <main>
+    
+    <form>
+        <fieldset>
+            <legend> Registration Form </legend>
+
+            <table border="1" cellspacing="0" cellpadding="10">
+                <tr>
+                    <td><label> Name </label></td>
+                    <td><input type="text" placeholder="Enter your Name" /></td>
+                </tr>
+                <tr>
+                    <td><label> Email </label></td>
+                    <td><input type="email" placeholder="Enter your email" /></td>
+                </tr>
+                <tr>
+                    <td><label> Phone </label></td>
+                    <td><input type="tel" placeholder="Enter your phone no." /></td>
+                </tr>
+                <tr>
+                    <td><label> Select Country </label></td>
+                    <td>
+                        <select>
+                            <option value="" > - Select Country - </option>
+                            <option value="india"> India </option>
+                            <option value="USA"> USA </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label> Gender </label></td>
+                    <td>
+                        <input type="radio" value="male" name="gender" checked /> Male
+                        <input type="radio" value="female" name="gender" /> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Message</label>
+                    </td>
+                    <td>
+                        <textarea cols="100" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password</label>
+                    </td>
+                    <td>
+                        <input type="password" placeholder="Enter your Password" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Confirm Password</label>
+                    </td>
+                    <td>
+                        <input type="password" placeholder="Confirm your Password" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Upload your File</label>
+                    </td>
+                    <td>
+                        <input type="file" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="reset" value="Reset Form" />
+                        <input type="submit" value="Register" />
+                    </td>
+                </tr>
+            </table>
+                
+
+        </fieldset>
+    </form>
+</main>
+<footer>
+    &copy; Copyright 2021. All rights reserved.
+</footer>
+</div>
+</body>
+</html>
